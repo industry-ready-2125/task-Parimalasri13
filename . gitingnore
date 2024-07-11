@@ -1,0 +1,60 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+*.log.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS
+*.DS_Store
+
+# Backup files
+*.bak
+*.swp
+
+# Dist folder
+dist/
+build/
+
+# Environment variables
+.env
+
+# Dependencies
+package-lock.json
+yarn.lock
+
+# Compiled files
+*.out
+*.class
+
+# Ignore any local changes to a config file
+config/local.js
+
+# GitHub pages
+# This is used to publish static sites hosted by GitHub
+# It will ignore everything in the directory
+# except the compiled output in the main branch
+/public
+!public/.well-known
+!.nojekyll
